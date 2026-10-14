@@ -1,0 +1,25 @@
+.conda/
+__pycache__/
+*.py[cod]
+*.db
+*.sqlite
+.env
+.streamlit/secrets.toml
+
+# Original dataset
+data/
+
+# Additional local environments
+.venv/
+venv/
+
+# Common credential files
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+credentials.json
+
+# Additional database formats
+*.sqlite3
